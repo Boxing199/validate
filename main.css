@@ -1,0 +1,14 @@
+.form-control:focus {
+    outline: none;
+}
+
+label.error {
+    color: red;
+}
+.form-control.error {
+    border: 1px solid red;
+}
+
+.form-control.valid {
+    border: 1px solid green; 
+}

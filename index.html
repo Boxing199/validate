@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Validate</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form class="form" id="myForm" role="form">
+        <div class="form-group">
+            <label for="inputEmail">Введите e-mail</label>
+            <input type="email" class="form-control" name="email" id="inputEmail" placeholder="Введите email">
+        </div>
+        <div class="form-group">
+                <label for="inputName">Введите имя</label>
+                <input type="text" class="form-control" name="name" id="inputName" placeholder="Введите имя">
+        </div>
+        <div class="form-group">
+                <label for="inputPassword">Введите пароль</label>
+                <input type="password" class="form-control" name="password" id="inputPassword" placeholder="Введите пароль">
+        </div>
+        <div class="form-group">
+                <label for="inputPassword_again">Повторите пароль</label>
+                <input type="password" class="form-control" name="password_again" id="inputPassword_again" placeholder="Повторите пароль">
+        </div>
+        <div class="form-group">
+                <label for="inputTel">Введите ваш номер телефона</label>
+                <input type="tel" class="form-control" name="tel" id="inputTel" placeholder="Ваш номер">
+        </div>
+        <button type="submit" class="btn">Отправить</button>
+    </form>   
+
+    <!-- JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
